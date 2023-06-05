@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+#game-board {
+    display: block;
+    background-color: #fff;
+}
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#controls {
+    margin-top: 1rem;
+}
